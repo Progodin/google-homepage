@@ -1,0 +1,18 @@
+#mainlogo{
+    margin-top: 47px;
+    padding-top: 109px;
+    text-align: center;
+    display: block;}
+
+#searchbox{ font-family: arial,sans-serif;
+    color: #222;
+    font-size: small;
+    background: none;
+    margin: 0 auto;
+    width: 833px;
+    max-width: none;
+    overflow: visible;}    
+    
+}
+    
+
