@@ -14,21 +14,19 @@ border: 2px solid blue}
 
 .search_form{position:relative;
 padding-top:24px;}
-.search{display:inline block;
+.search{display: inline-block;
     text-align: center;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     height: 44px;
     width: 482px;
 padding: 1px 0px;
-position:relative;
 text-indent: 30px;
-background-image: url;}
-.fa-search{position: absolute;
-    margin-left: 4px;
-    display:inline-table;
-    
 }
+.fa-search{position: absolute;
+    margin-left: 20px;
+    margin-top: 16px;
+    display:inside;}
 
 
 
