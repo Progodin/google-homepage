@@ -1,3 +1,6 @@
+body{margin: 0px;
+padding: 0px;}
+
 .top_container{position:}
 
 
@@ -64,8 +67,37 @@ background: #fff}
 
 
 
-.bottom_container{position:}
+.bottom_container{display: block;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    margin-top:60px;}
+    
+    
+    .nav_bottom_menuU{font-size: 13px;
+                     margin-left: -27px;
+                    }
 
+                #upper_bar:{border-bottom: 1px solid #e4e4e4e0;
+                }
+                    #country_display{margin-left: 30px;
+                                    text-align: left;
+                                    color: rgba(0,0,0,.54);
+                                    padding-left: 27px;} 
+                                    #country{font-size: 15px;
+                                        text-align: left;
+                                        color: rgba(0,0,0,.54);
+                                        font-family: arial,sans-serif;}  
+    
+
+    .nav_bottom_menuD{bottom: 0;
+        font-size: 10pt;
+        height: 35px;
+        position: fixed;
+        width: 100%;
+        display: inline-block;}
+        #abah{} 
+                                          
 
  
  
