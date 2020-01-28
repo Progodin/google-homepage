@@ -1,5 +1,8 @@
 body{margin: 0px;
-padding: 0px;}
+padding: 0px;
+font-family: arial,sans-serif;
+}
+
 
 .top_container{position:}
 
@@ -67,36 +70,55 @@ background: #fff}
 
 
 
-.bottom_container{display: block;
-    background: #f2f2f2;
-    line-height: 40px;
-    border-top: 1px solid #e4e4e4;
-    margin-top:60px;}
-    
-    
-    .nav_bottom_menuU{font-size: 13px;
-                     margin-left: -27px;
+#bottom_container{bottom: 0; 
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    display: block;}                       
+
+    .position_prop{ bottom: 0;
+                    left: 0;
+                    position: absolute;
+                    right: 0;
+                    text-align: left;
+                display: inline-block;
                     }
+                    #internal_prop{background: #f2f2f2;
+                        line-height: 40px;
+                        min-width: 980px;
+                        border-top: 1px solid #e4e4e4;
+                        
+                   }
+                        .fbar{font-size: 14px;
+                            margin-left: -27px;
+                        }
+                            #left_nav{margin-left: 30px;
+                                white-space: nowrap;}
+                            #right_nav{margin-left: 30px;
+                                float: right;
+                                white-space: nowrap;} 
+                                .n_prop1{padding-left: 27px;
+                                    margin: 0 !important;
+                                    text-decoration: none;
+                                    color: #5f6368;
+                                    width: 69.2656px;
+                                }   
+                                .n_prop2{padding-left: 23px;
+                                    margin: 0 !important;
+                                    text-decoration: none;
+                                    color: #5f6368;
+                                width: 56.8125px;}
+                                .n_prop3{padding-left: 23px;
+                                        margin: 0 !important;
+                                        text-decoration: none;
+                                        color: #5f6368;
+                                    width: 116.703px;}
 
-                #upper_bar:{border-bottom: 1px solid #e4e4e4e0;
-                }
-                    #country_display{margin-left: 30px;
-                                    text-align: left;
-                                    color: rgba(0,0,0,.54);
-                                    padding-left: 27px;} 
-                                    #country{font-size: 15px;
-                                        text-align: left;
-                                        color: rgba(0,0,0,.54);
-                                        font-family: arial,sans-serif;}  
+
     
-
-    .nav_bottom_menuD{bottom: 0;
-        font-size: 10pt;
-        height: 35px;
-        position: fixed;
-        width: 100%;
-        display: inline-block;}
-        #abah{} 
+    
+    
                                           
 
  
