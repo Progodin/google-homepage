@@ -98,22 +98,41 @@ background: #fff}
                             #right_nav{margin-left: 30px;
                                 float: right;
                                 white-space: nowrap;} 
-                                .n_prop1{padding-left: 27px;
+                                #n_prop1{padding-left: 27px;
                                     margin: 0 !important;
                                     text-decoration: none;
                                     color: #5f6368;
                                     width: 69.2656px;
                                 }   
-                                .n_prop2{padding-left: 23px;
+                                #n_prop2{padding-left: 23px;
                                     margin: 0 !important;
                                     text-decoration: none;
                                     color: #5f6368;
                                 width: 56.8125px;}
-                                .n_prop3{padding-left: 23px;
+                                #n_prop3{padding-left: 23px;
                                         margin: 0 !important;
                                         text-decoration: none;
                                         color: #5f6368;
                                     width: 116.703px;}
+
+                                #n_prop4{
+                                    margin: 23.5px !important;
+                                    text-decoration: none;
+                                    color: #5f6368;
+                                    width: 45.9062px 40px;
+                                }
+                                 #n_prop5{
+                                    margin-right: -7px !important;
+                                    text-decoration: none;
+                                    color: #5f6368;
+                                width: 38.125px;}  
+                                
+                                #n_prop6{
+                                    margin: 30px !important;
+                                    margin-right: 10px;
+                                    text-decoration: none;
+                                    color: #5f6368;
+                                width: 50.5938px;}
 
 
     
