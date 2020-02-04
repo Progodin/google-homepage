@@ -117,15 +117,33 @@ width: auto;
 .search_form{position:relative;
 padding-top:24px;}
 .search{display: inline-block;
-    text-align: center;
+    text-align: start;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     height: 42px;
     width: 582px;
 padding: 1px 0px;
-text-indent: 30px;
-background: #fff
+text-indent: 46px;
+font: 16px arial,sans-serif;
+background: #fff;
+outline: none;
+
 }
+input{-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-shadow: none;
+    cursor:text;
+    
+    }
+
+    .search:hover{height: 42px;
+        width: 582px;
+        box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+        border-color: rgba(223,225,229,0);}
 #WTF{color: #9AA0A6;
     height: 20px;
     width: 20px;
@@ -135,7 +153,8 @@ background: #fff
     line-height: 24px;
     position: absolute;
 margin-left: 15px;
-margin-top:13px;}
+margin-top:13px;
+padding-right: 10px;}
 
     .submmit_input{margin-top: 19px;
         margin-right: 12px;
